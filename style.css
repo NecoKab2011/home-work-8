@@ -1,0 +1,36 @@
+.section-title{
+    color: pink;
+}
+
+.greycol{
+    color:grey;
+}
+
+/*  Творче завдання */
+.schedule-body>tr:hover {
+    background-color: tomato;
+    color: white;
+}
+
+/* Оформлення таблиці */
+.schedule {
+    border-collapse: collapse;
+}
+
+.schedule th,
+.schedule td {
+    padding: 8px;
+    border: 1px solid #212121;
+}
+
+/* вибирає перший селектор цього типу; */
+/* .schedule-body>tr:first-of-type {
+  background-color: tomato;
+  color: white;
+} */
+
+/* вибирає останній селектор цього типу; */
+.schedule-body>tr:last-of-type {
+  background-color: tomato;
+  color: white;
+}
